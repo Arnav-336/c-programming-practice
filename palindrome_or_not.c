@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int no=121,num=121;
+    int no,num;
+    printf("Enter a three digit number: ");
+    scanf("%d",&no);
+    num=no;
     int no1,no2,no3,rev;
     no1=no%10*100;
     no=no/10;
