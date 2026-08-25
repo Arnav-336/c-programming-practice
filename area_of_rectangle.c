@@ -2,8 +2,10 @@
 int main()
 {
     float length,breadth,area;
-    length=3.5;
-    breadth=7.5;
+    printf("Enter the length of the rectangle: ");
+    scanf("%f",&length);
+    printf("Enter the breadth of the rectangle: ");
+    scanf("%f",&breadth);
     area=length*breadth;
     printf("Area of a rectangle having sides %f and %f is %f",length,breadth,area);
 }
